@@ -1,0 +1,393 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/deiro/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56851
+Successfully changed project path to: C:/Users/deiro/My project
+C:/Users/deiro/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 82.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/deiro/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006421 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 78.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\deiro\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\deiro\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3321 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (55.7 KB). Loaded Objects now: 3791.
+Memory consumption went from 116.3 MB to 116.3 MB.
+Total: 3.763600 ms (FindLiveObjects: 0.326500 ms CreateObjectMapping: 0.261300 ms MarkObjects: 3.093600 ms  DeleteObjects: 0.080600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6002.628274 seconds.
+  path: Assets/EmaceArt - raft on the desert/Materials/Material_decal.mat
+  artifactKey: Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Materials/Material_decal.mat using Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d17d3c67fb7483c3480c0928bb3a51f') in 0.259030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt - raft on the desert/Materials/Material_wood.mat
+  artifactKey: Guid(f4714ac1872429b4f9f19f95f509e32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Materials/Material_wood.mat using Guid(f4714ac1872429b4f9f19f95f509e32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64deb6281bd65051eed90b2948ad11') in 0.024096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EmaceArt - raft on the desert/Info
+  artifactKey: Guid(518a1f6b229eb9d4d84edf37feb24483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Info using Guid(518a1f6b229eb9d4d84edf37feb24483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261c96ad16399a6bb421386b2e71d7b') in 0.008206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EmaceArt - raft on the desert/Materials/Material_metal.mat
+  artifactKey: Guid(f7f769ab392be8c4aaa5b682729f42c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Materials/Material_metal.mat using Guid(f7f769ab392be8c4aaa5b682729f42c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492cf4b8698966008d107f828256c46') in 0.184552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.503773 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01a.fbx
+  artifactKey: Guid(f751a228a8d364c4eb3cf09bca0b2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01a.fbx using Guid(f751a228a8d364c4eb3cf09bca0b2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2867dd2011ccf1400e27647b6b7d52ae') in 0.089047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx
+  artifactKey: Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx using Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa47bec4d9a9b4beffea32c4521d0d41') in 0.067075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01a.fbx
+  artifactKey: Guid(2d30a0ae130af5d49ba0ab38442d1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01a.fbx using Guid(2d30a0ae130af5d49ba0ab38442d1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32c59a763f423c60308c5534ca6edc5') in 0.067209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01b.fbx
+  artifactKey: Guid(25e0b84f10949354b96b98b3742acdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01b.fbx using Guid(25e0b84f10949354b96b98b3742acdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71f3ed921141637edfa486e6eacc0c5') in 0.075760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01d.fbx
+  artifactKey: Guid(71130e78383d62749afea6274f860b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01d.fbx using Guid(71130e78383d62749afea6274f860b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e9b7fbcd5b008f0b172f4bcb2dcced') in 0.045600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx
+  artifactKey: Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx using Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8f54fc59b3cbd28a27a4b2fbdbb9e') in 0.063178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx
+  artifactKey: Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx using Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279a16b0ae06a7046abbfdbee93e1a07') in 0.051127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx
+  artifactKey: Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx using Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcd380f06c7f585d6f07fff7ef0275b') in 0.048351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx
+  artifactKey: Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx using Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea406606cca1c3684fe36b039cac344') in 0.058639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx
+  artifactKey: Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx using Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd158f498c492296280eb22dd46969616') in 0.055654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01a.fbx
+  artifactKey: Guid(69a3c9e4919786945bb0a5b00df645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01a.fbx using Guid(69a3c9e4919786945bb0a5b00df645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e06a2aba7c58b9b9622c47373a468e') in 0.071882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Fireplace_01a.fbx
+  artifactKey: Guid(318de2124ee5d7b409a9d921d96a4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Fireplace_01a.fbx using Guid(318de2124ee5d7b409a9d921d96a4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93d1c303f07084efc4f32d1c4141a05') in 0.058846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx
+  artifactKey: Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx using Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199ec60b8b52e75cf98014ac74200e5f') in 0.056546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01b.fbx
+  artifactKey: Guid(105eaf64592d4d54c845376a4620b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01b.fbx using Guid(105eaf64592d4d54c845376a4620b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2290b6c6d95d605435a9d0e1da6733') in 0.053444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Gray_01b.fbx
+  artifactKey: Guid(7c9a7ec1e6f436044a88660f481271e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Gray_01b.fbx using Guid(7c9a7ec1e6f436044a88660f481271e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d284af15abefa58787bbe3aab711f0') in 0.051165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx
+  artifactKey: Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx using Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aaf21b5e73a98dd1798efdd976224b') in 0.048153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01b.fbx
+  artifactKey: Guid(a29e63507c93f1d4fa295165f7df7553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01b.fbx using Guid(a29e63507c93f1d4fa295165f7df7553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8d9a57fe6d218e732ae464723796cb') in 0.048704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Flag_01a.fbx
+  artifactKey: Guid(dd009f9122345d14e998debb5456ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Flag_01a.fbx using Guid(dd009f9122345d14e998debb5456ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d740e5c8ed629ead82121100c30190') in 0.054560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx
+  artifactKey: Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx using Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e22595aabab83bddda5585e4d61609') in 0.049065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_Ring_01a.fbx
+  artifactKey: Guid(b336bceccf9dcad4aabb8be7f6f3063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_Ring_01a.fbx using Guid(b336bceccf9dcad4aabb8be7f6f3063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc0e4ab372b7d71ea04344a8d845b6') in 0.059126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx
+  artifactKey: Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx using Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f3929b6cd5ffb246caf5490f3f0ef4') in 0.061706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01b.fbx
+  artifactKey: Guid(e4473e54f875dd14e9e7bdd6b9ab66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01b.fbx using Guid(e4473e54f875dd14e9e7bdd6b9ab66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d20cf091db1563d788503fdc53d67a6') in 0.056650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01b.fbx
+  artifactKey: Guid(40d3e57c6089486449738df43792b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01b.fbx using Guid(40d3e57c6089486449738df43792b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca15a1af5b4e447ce212687d85af9e75') in 0.057383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01c.fbx
+  artifactKey: Guid(e15ebb3bd0109b840b0b4aabbe7ee02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01c.fbx using Guid(e15ebb3bd0109b840b0b4aabbe7ee02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25620bd6e5b92f07b5906e1892e3754') in 0.057483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01c.fbx
+  artifactKey: Guid(f55612afa7220524ebdfc67272940087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01c.fbx using Guid(f55612afa7220524ebdfc67272940087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca585e9da5da343b01fba564cb7b4fa') in 0.044197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.069855 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx
+  artifactKey: Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx using Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3253dc640df3cbba4c8850e40db15e00') in 0.069910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx
+  artifactKey: Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx using Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c55a07ad81eb6dbd499e0aee75c857') in 0.062105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01a.fbx
+  artifactKey: Guid(8a323d9d4144e7447b5a20781a270900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01a.fbx using Guid(8a323d9d4144e7447b5a20781a270900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f62dc097a1ea6b9fbc1a3dc689a545') in 0.054011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx
+  artifactKey: Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx using Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766dc8d294a8b35e43514aeb02ef0964') in 0.054310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01b.fbx
+  artifactKey: Guid(4011853ed40e977429c5ccff3305629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01b.fbx using Guid(4011853ed40e977429c5ccff3305629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1e9681bf8cd8ccd87da42463d1aead') in 0.054345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01g.fbx
+  artifactKey: Guid(529488a5791c54145964cc481b57a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01g.fbx using Guid(529488a5791c54145964cc481b57a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f718584f71927608d13de7e467bc95a2') in 0.053017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01e.fbx
+  artifactKey: Guid(9bca1507c6ae16a40bf37ee365320715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01e.fbx using Guid(9bca1507c6ae16a40bf37ee365320715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe14ad1479a85b79f3cbe1bc40919ec') in 0.054852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01d.fbx
+  artifactKey: Guid(dfe383d07939fb0478f7662ffc5a2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01d.fbx using Guid(dfe383d07939fb0478f7662ffc5a2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29650bc28cab0d7538fd1ea27be7919e') in 0.046919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx
+  artifactKey: Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx using Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa8f0b6261b9e9aea5295627767d14') in 0.048712 seconds 
